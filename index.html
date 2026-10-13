@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ena Coach | Bus tickets and travel in Nakuru Town</title>
+  <meta name="description" content="Ena Coach, Nakuru Town. Book bus tickets to major towns on WhatsApp. Safe and comfortable coaches.">
+  <link rel="icon" type="image/svg+xml" href="favicon.svg">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600;700&family=Nunito+Sans:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css?v=1">
+</head>
+<body>
+
+  <!-- 1. HEADER: badge and name -->
+  <header class="site-header">
+    <a href="#home" class="brand" aria-label="Ena Coach home"><span class="mono">EC</span><span class="brand-name">Ena Coach</span></a>
+    <button class="menu-btn" id="menuBtn" aria-label="Open menu">Menu</button>
+    <nav id="nav" class="nav">
+      <a href="#services">Routes</a>
+      <a href="#gallery">Our buses</a>
+      <a href="#reviews">Reviews</a>
+      <a href="#book">Book</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <main>
+    <!-- 2. HERO: add your photo as images/hero.jpg -->
+    <section class="hero" id="home">
+      <img src="images/hero.jpg" alt="Ena Coach" class="hero-img" onerror="this.remove()">
+      <div class="hero-text">
+        <h1>Travel safe. Travel comfortable.</h1>
+        <p>Book your bus ticket in minutes on WhatsApp. Daily departures to major towns. Open every day, 6am to 9pm.</p>
+        <a class="btn" href="#book">Book a ticket</a>
+        <a class="btn ghost" href="#services">See prices</a>
+        <a class="btn ghost" href="#contact">Contact us</a>
+      </div>
+    </section>
+
+    <!-- 3. MAIN PRODUCTS OR SERVICES -->
+    <section class="section" id="services">
+      <h2>Routes and fares</h2>
+      <div class="cards">
+        <article class="card">
+          <img src="images/route1.jpg" alt="Nairobi to Mombasa" loading="lazy" onerror="this.onerror=null;this.src='images/placeholder.svg'">
+          <div class="card-body"><h3>Nairobi to Mombasa</h3><span class="price">from KES 1,600</span></div>
+          <div class="card-actions"><a class="btn-wa" href="https://wa.me/254789509623?text=Hello%20Ena%20Coach%2C%20I%20would%20like%20to%20book%20a%20seat%20on%20Nairobi%20to%20Mombasa." target="_blank" rel="noopener">Book on WhatsApp</a></div>
+        </article>
+        <article class="card">
+          <img src="images/route2.jpg" alt="Nairobi to Kisumu" loading="lazy" onerror="this.onerror=null;this.src='images/placeholder.svg'">
+          <div class="card-body"><h3>Nairobi to Kisumu</h3><span class="price">from KES 1,500</span></div>
+          <div class="card-actions"><a class="btn-wa" href="https://wa.me/254789509623?text=Hello%20Ena%20Coach%2C%20I%20would%20like%20to%20book%20a%20seat%20on%20Nairobi%20to%20Kisumu." target="_blank" rel="noopener">Book on WhatsApp</a></div>
+        </article>
+        <article class="card">
+          <img src="images/route3.jpg" alt="Nairobi to Nakuru" loading="lazy" onerror="this.onerror=null;this.src='images/placeholder.svg'">
+          <div class="card-body"><h3>Nairobi to Nakuru</h3><span class="price">from KES 800</span></div>
+          <div class="card-actions"><a class="btn-wa" href="https://wa.me/254789509623?text=Hello%20Ena%20Coach%2C%20I%20would%20like%20to%20book%20a%20seat%20on%20Nairobi%20to%20Nakuru." target="_blank" rel="noopener">Book on WhatsApp</a></div>
+        </article>
+        <article class="card">
+          <img src="images/route4.jpg" alt="Nairobi to Eldoret" loading="lazy" onerror="this.onerror=null;this.src='images/placeholder.svg'">
+          <div class="card-body"><h3>Nairobi to Eldoret</h3><span class="price">from KES 1,400</span></div>
+          <div class="card-actions"><a class="btn-wa" href="https://wa.me/254789509623?text=Hello%20Ena%20Coach%2C%20I%20would%20like%20to%20book%20a%20seat%20on%20Nairobi%20to%20Eldoret." target="_blank" rel="noopener">Book on WhatsApp</a></div>
+        </article>
+        <article class="card">
+          <img src="images/route5.jpg" alt="Nakuru to Mombasa" loading="lazy" onerror="this.onerror=null;this.src='images/placeholder.svg'">
+          <div class="card-body"><h3>Nakuru to Mombasa</h3><span class="price">from KES 1,900</span></div>
+          <div class="card-actions"><a class="btn-wa" href="https://wa.me/254789509623?text=Hello%20Ena%20Coach%2C%20I%20would%20like%20to%20book%20a%20seat%20on%20Nakuru%20to%20Mombasa." target="_blank" rel="noopener">Book on WhatsApp</a></div>
+        </article>
+        <article class="card">
+          <img src="images/route6.jpg" alt="Nakuru to Kisumu" loading="lazy" onerror="this.onerror=null;this.src='images/placeholder.svg'">
+          <div class="card-body"><h3>Nakuru to Kisumu</h3><span class="price">from KES 900</span></div>
+          <div class="card-actions"><a class="btn-wa" href="https://wa.me/254789509623?text=Hello%20Ena%20Coach%2C%20I%20would%20like%20to%20book%20a%20seat%20on%20Nakuru%20to%20Kisumu." target="_blank" rel="noopener">Book on WhatsApp</a></div>
+        </article>
+      </div>
+      <h3 class="more-title">More routes</h3>
+      <ul class="price-list">
+        <li><span class="svc">Nairobi to Kitale</span><span class="price">KES 1,600</span><a class="btn-wa" href="https://wa.me/254789509623?text=Hello%20Ena%20Coach%2C%20I%20would%20like%20to%20book%20a%20seat%20on%20Nairobi%20to%20Kitale." target="_blank" rel="noopener">Book on WhatsApp</a></li>
+        <li><span class="svc">Nairobi to Kakamega</span><span class="price">KES 1,700</span><a class="btn-wa" href="https://wa.me/254789509623?text=Hello%20Ena%20Coach%2C%20I%20would%20like%20to%20book%20a%20seat%20on%20Nairobi%20to%20Kakamega." target="_blank" rel="noopener">Book on WhatsApp</a></li>
+        <li><span class="svc">Nairobi to Busia</span><span class="price">KES 1,900</span><a class="btn-wa" href="https://wa.me/254789509623?text=Hello%20Ena%20Coach%2C%20I%20would%20like%20to%20book%20a%20seat%20on%20Nairobi%20to%20Busia." target="_blank" rel="noopener">Book on WhatsApp</a></li>
+        <li><span class="svc">Nakuru to Eldoret</span><span class="price">KES 700</span><a class="btn-wa" href="https://wa.me/254789509623?text=Hello%20Ena%20Coach%2C%20I%20would%20like%20to%20book%20a%20seat%20on%20Nakuru%20to%20Eldoret." target="_blank" rel="noopener">Book on WhatsApp</a></li>
+        <li><span class="svc">Nakuru to Kericho</span><span class="price">KES 600</span><a class="btn-wa" href="https://wa.me/254789509623?text=Hello%20Ena%20Coach%2C%20I%20would%20like%20to%20book%20a%20seat%20on%20Nakuru%20to%20Kericho." target="_blank" rel="noopener">Book on WhatsApp</a></li>
+        <li><span class="svc">Nakuru to Nairobi</span><span class="price">KES 800</span><a class="btn-wa" href="https://wa.me/254789509623?text=Hello%20Ena%20Coach%2C%20I%20would%20like%20to%20book%20a%20seat%20on%20Nakuru%20to%20Nairobi." target="_blank" rel="noopener">Book on WhatsApp</a></li>
+      </ul>
+    </section>
+
+    <!-- 4. GALLERY -->
+    <section class="section alt" id="gallery">
+      <h2>Our buses</h2>
+      <div class="gallery">
+        <img src="images/g1.jpg" alt="Bus photo 1" loading="lazy" onerror="this.onerror=null;this.src='images/placeholder.svg'">
+        <img src="images/g2.jpg" alt="Bus photo 2" loading="lazy" onerror="this.onerror=null;this.src='images/placeholder.svg'">
+        <img src="images/g3.jpg" alt="Bus photo 3" loading="lazy" onerror="this.onerror=null;this.src='images/placeholder.svg'">
+        <img src="images/g4.jpg" alt="Bus photo 4" loading="lazy" onerror="this.onerror=null;this.src='images/placeholder.svg'">
+      </div>
+    </section>
+
+    <!-- 5. REVIEWS -->
+    <section class="section" id="reviews">
+      <h2>What customers say</h2>
+      <blockquote>Clean bus, left on time and arrived early. I will travel with them again.<cite>Alice, passenger</cite></blockquote>
+      <blockquote>Booking on WhatsApp was so easy. I got my seat in two minutes.<cite>Kevin, passenger</cite></blockquote>
+    </section>
+
+    <!-- 6. FORM -->
+    <section class="section alt" id="book">
+      <h2>Book your ticket on WhatsApp</h2>
+      <form id="bookForm">
+        <label for="name">Your name</label>
+        <input type="text" id="name" required>
+        <label for="route">Route</label>
+        <select id="route" class="q" data-label="Route" required>
+          <option value="">Choose one</option>
+          <option>Nairobi to Mombasa</option>
+          <option>Nairobi to Kisumu</option>
+          <option>Nairobi to Nakuru</option>
+          <option>Nairobi to Eldoret</option>
+          <option>Nakuru to Mombasa</option>
+          <option>Nakuru to Kisumu</option>
+          <option>Nairobi to Kitale</option>
+          <option>Nairobi to Kakamega</option>
+          <option>Nairobi to Busia</option>
+          <option>Nakuru to Eldoret</option>
+          <option>Nakuru to Kericho</option>
+          <option>Nakuru to Nairobi</option>
+        </select>
+        <label for="date">Travel date</label>
+        <input type="date" id="date" class="q" data-label="Travel date" required>
+        <label for="pax">Number of passengers</label>
+        <input type="number" id="pax" class="q" data-label="Number of passengers" required>
+        <button type="submit" class="btn">Send on WhatsApp</button>
+        <p id="formMsg" role="status"></p>
+      </form>
+    </section>
+
+    <!-- 7. CONTACT -->
+    <section class="section" id="contact">
+      <h2>Contact us</h2>
+      <p class="contact-line"><strong>Address:</strong> Nakuru Town (add your street here)</p>
+      <p class="contact-line"><strong>Phone:</strong> 0789 509 623</p>
+      <p class="contact-line"><strong>Hours:</strong> Every day, 6am to 9pm</p>
+      <p class="contact-actions">
+        <a class="btn" href="tel:+254789509623">Call us</a>
+        <a class="btn-wa" href="https://wa.me/254789509623" target="_blank" rel="noopener">WhatsApp us</a>
+      </p>
+    </section>
+  </main>
+
+  <!-- 8. FOOTER -->
+  <footer class="site-footer">
+    <div class="footer-brand"><span class="mono">EC</span><span class="brand-name">Ena Coach</span></div>
+    <p>Ena Coach, Nakuru Town</p>
+    <p>Phone: 0789 509 623</p>
+    <p style="font-size:.8rem;opacity:.7;margin-top:.6rem">Sample website design for practice. Not the official website.</p>
+  </footer>
+
+  <!-- 9. FLOATING BUTTONS -->
+  <div class="float-btns" style="position:fixed;right:14px;bottom:14px;display:flex;flex-direction:column;gap:10px;z-index:9999">
+    <a class="fab call" href="tel:+254789509623" aria-label="Call Ena Coach"><svg viewBox="0 0 24 24" width="20" height="20" fill="currentColor" aria-hidden="true"><path d="M6.6 10.8a15 15 0 006.6 6.6l2.2-2.2a1 1 0 011-.25c1.1.37 2.3.57 3.6.57a1 1 0 011 1V20a1 1 0 01-1 1A17 17 0 013 4a1 1 0 011-1h3.5a1 1 0 011 1c0 1.25.2 2.45.57 3.58a1 1 0 01-.25 1l-2.2 2.2z"/></svg><span>Call us</span></a>
+    <a class="fab wa" href="https://wa.me/254789509623?text=Hello%20Ena%20Coach%2C%20I%20would%20like%20to%20ask%20a%20question." target="_blank" rel="noopener" aria-label="WhatsApp Ena Coach"><svg viewBox="0 0 24 24" width="20" height="20" fill="currentColor" aria-hidden="true"><path d="M12 2a10 10 0 00-8.6 15L2 22l5.2-1.4A10 10 0 1012 2zm5.2 13.9c-.2.6-1.3 1.2-1.8 1.2-.5.1-1 .2-3.3-.7a11 11 0 01-4.5-4c-.3-.5-1.1-1.6-1.1-2.9s.7-1.9.9-2.2a1 1 0 01.7-.3h.5c.2 0 .4 0 .6.5l.8 2c.1.2.1.3 0 .5l-.4.6-.3.3c-.1.1-.3.3-.1.6a7 7 0 002.7 2.4c.3.1.5.1.7-.1l.9-1.1c.2-.2.4-.2.6-.1l2 1c.3.1.5.2.5.3 0 .2 0 .8-.2 1.3z"/></svg><span>WhatsApp</span></a>
+  </div>
+
+  <script src="script.js?v=1"></script>
+</body>
+</html>
